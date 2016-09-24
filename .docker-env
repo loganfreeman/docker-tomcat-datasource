@@ -1,0 +1,10 @@
+TOMCAT_USER=admin
+TOMCAT_PASS=admin
+MYSQL_HOST=db
+MYSQL_PORT=3306
+MYSQL_DATABASE=database
+MYSQL_USER=user
+MYSQL_PASSWORD=password
+LIBDIR=libs
+WAR=example.war
+JNDI_NAME=jdbc/example
