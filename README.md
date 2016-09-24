@@ -5,7 +5,7 @@
 
 first create a db container
 ```shell
-docker run --name mysql -e MYSQL_ROOT_PASSWORD=password -e MYSQL_USER=user -e MYSQL_PASSWORD=password -e MYSQL_DATABASE=example -d mysql:latest --lower_case_table_names=1
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=password -e MYSQL_USER=user -e MYSQL_PASSWORD=password -e MYSQL_DATABASE=example -d mysql:latest
 ```
 
 then build the image from Dockerfile
